@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal S. | Senior Java Developer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 1.3em;
+            color: #a8d8ea;
+            margin-bottom: 20px;
+        }
+
+        .header .tagline {
+            font-size: 1em;
+            color: #ccc;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .header .cta {
+            display: inline-block;
+            background: #e94560;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background 0.3s;
+        }
+
+        .header .cta:hover { background: #c73e54; }
+
+        /* Section */
+        .section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #1a1a2e;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #f8f9fa;
+            border-left: 4px solid #0f3460;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .skill-card h3 {
+            color: #0f3460;
+            margin-bottom: 10px;
+        }
+
+        .skill-card ul {
+            list-style: none;
+        }
+
+        .skill-card li {
+            padding: 3px 0;
+            color: #555;
+        }
+
+        .skill-card li::before {
+            content: ">";
+            color: #e94560;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        /* Experience */
+        .experience-item {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            color: #0f3460;
+            margin-bottom: 5px;
+        }
+
+        .experience-item .company {
+            color: #e94560;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .experience-item .date {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .experience-item ul {
+            padding-left: 20px;
+        }
+
+        .experience-item li {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        /* Projects */
+        .project-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-top: 3px solid #0f3460;
+        }
+
+        .project-card h3 { color: #0f3460; margin-bottom: 8px; }
+        .project-card .tech { color: #e94560; font-size: 0.9em; margin-bottom: 10px; }
+
+        /* Contact */
+        .contact {
+            background: #1a1a2e;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 { color: white; margin-bottom: 20px; }
+        .contact p { color: #ccc; margin-bottom: 30px; }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            background: #0f3460;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact-links a:hover { background: #e94560; }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.8em; }
+            .header .subtitle { font-size: 1.1em; }
+            .skills-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Vishal S.</h1>
+    <p class="subtitle">Senior Java Developer | Backend & Microservices Specialist</p>
+    <p class="tagline">15+ years building scalable backend systems. Former engineer at Foodpanda & Meddo Healthcare. Specializing in Java, Spring Boot, Docker, and cloud deployments.</p>
+    <a href="https://www.upwork.com/freelancers/~01042a84139353ade8" class="cta">Hire Me on Upwork</a>
+</div>
+
+<!-- Skills -->
+<div class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Backend Development</h3>
+            <ul>
+                <li>Java (Core Java, Java 8+)</li>
+                <li>Spring Boot & Spring Framework</li>
+                <li>Hibernate & JPA</li>
+                <li>REST API Design</li>
+                <li>Microservices Architecture</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>DevOps & Cloud</h3>
+            <ul>
+                <li>Docker & Docker Compose</li>
+                <li>Google Cloud Platform (GCP)</li>
+                <li>CI/CD Pipelines</li>
+                <li>Linux Server Management</li>
+                <li>Nginx / Apache</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Databases</h3>
+            <ul>
+                <li>MySQL / PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+                <li>Database Design & Optimization</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Frontend & Other</h3>
+            <ul>
+                <li>JavaScript / HTML / CSS</li>
+                <li>React (basics)</li>
+                <li>PHP / Laravel</li>
+                <li>Git & Version Control</li>
+                <li>Agile / Scrum</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Experience -->
+<div class="section" style="background: #fff;">
+    <h2>Work Experience</h2>
+
+    <div class="experience-item">
+        <h3>Senior Software Engineer</h3>
+        <div class="company">Arctern Healthcare (Meddo)</div>
+        <div class="date">February 2019 - June 2022</div>
+        <ul>
+            <li>Led server integration systems connecting with third-party vendors and payment gateways</li>
+            <li>Built microservices for real-time healthcare data processing</li>
+            <li>Designed REST APIs consumed by web and mobile applications</li>
+            <li>Implemented Docker-based deployment for consistent environments</li>
+            <li>Integrated with vendors like MaxHealth, Practo, and payment processors</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <h3>Software Developer</h3>
+        <div class="company">Foodpanda</div>
+        <div class="date">April 2017 - May 2019</div>
+        <ul>
+            <li>Developed backend services for one of India's largest food delivery platforms</li>
+            <li>Built and maintained high-traffic APIs handling thousands of requests per minute</li>
+            <li>Worked on order management, delivery tracking, and payment systems</li>
+            <li>Collaborated with cross-functional teams in an agile environment</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Projects -->
+<div class="section">
+    <h2>Key Projects</h2>
+
+    <div class="project-card">
+        <h3>Healthcare Server Integration Platform</h3>
+        <div class="tech">Java | Spring Boot | Docker | REST APIs | Microservices</div>
+        <p>Built a distributed integration system connecting healthcare providers with third-party services. Handled real-time data synchronization, appointment booking, and payment processing across multiple vendor APIs.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Food Delivery Backend System</h3>
+        <div class="tech">Java | Spring Framework | MySQL | Redis | REST APIs</div>
+        <p>Developed core backend services for order processing, delivery logistics, and real-time tracking. Optimized database queries and caching strategies to handle peak-hour traffic spikes.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Microservices Migration</h3>
+        <div class="tech">Java | Spring Boot | Docker Compose | Hibernate</div>
+        <p>Led migration from monolithic architecture to microservices, improving deployment flexibility and system resilience. Implemented service discovery, API gateway, and centralized logging.</p>
+    </div>
+</div>
+
+<!-- Education -->
+<div class="section" style="background: #f8f9fa; margin: 0 auto; max-width: 100%; padding: 60px 20px;">
+    <div style="max-width: 900px; margin: 0 auto;">
+        <h2>Education</h2>
+        <div class="experience-item" style="background: white;">
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <div class="company">Amritsar College of Engineering</div>
+            <div class="date">2006 - 2010</div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="contact">
+    <h2>Let's Work Together</h2>
+    <p>Available 30+ hours/week. Ready to start immediately.</p>
+    <div class="contact-links">
+        <a href="https://www.upwork.com/freelancers/~01042a84139353ade8">Upwork Profile</a>
+        <a href="mailto:your-email@example.com">Email Me</a>
+        <a href="https://github.com/your-github">GitHub</a>
+        <a href="https://linkedin.com/in/your-linkedin">LinkedIn</a>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Vishal S. All rights reserved.
+</div>
+
+</body>
+</html>
